@@ -1,0 +1,130 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    aaptOptions {
+        noCompress "tflite"
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "gpapp"
+    productFlavors {
+        production {
+            dimension "gpapp"
+            versionName "0.1 (SPOTNANA)"
+            applicationId "in.getparking.spotnana"
+            buildConfigField('String', 'HOST', '"getParking/production"')
+            buildConfigField('String', 'POWERED_BY', '"www.getparking.in"')
+            buildConfigField('String', 'APP_NAME', '"GetParking"')
+            buildConfigField('String', 'PROJECT_NAME', '"GetParking"')
+            buildConfigField('String', 'COMPANY', '"PLAY TIME MEDIA INDIA PVT. LTD"')
+            buildConfigField('String', 'DEVICESFBID', '"1:630380373924:android:65556b11e523de74"')
+            buildConfigField('String', 'DEVICESFBAPIKEY', '"AIzaSyAZvOp-zo5x2MPilUUg1JC4BsFrh-ROIxA"')
+            buildConfigField('String', 'DEVICESDBPATH', '"https://get-parking-counters.firebaseio.com/"')
+            buildConfigField('String', 'DEFAULTFBID', '"1:630380373924:android:65556b11e523de74"')
+            buildConfigField('String', 'DEFAULTFBAPIKEY', '"AIzaSyAZvOp-zo5x2MPilUUg1JC4BsFrh-ROIxA"')
+            buildConfigField('String', 'DEFAULTDBPATH', '"https://get-parking-other-customers.firebaseio.com/"')
+            buildConfigField('String', 'DEFAULTSTORAGEURL', '"gs://get-parking-7b3d5.appspot.com"')
+            buildConfigField('String', 'SHORTURLDOMAIN', '"gtprk.page.link "')
+            buildConfigField('String', 'BASEAPIURL', '"https://get-parking-7b3d5.appspot.com/"')
+        }
+
+
+        development {
+            dimension "gpapp"
+            versionName "0.1 (SPOTNANA-DEV)"
+            applicationId "in.getparking.spotnanadev"
+            buildConfigField('String', 'HOST', '"getParking/dev"')
+            buildConfigField('String', 'POWERED_BY', '"www.getparking.in"')
+            buildConfigField('String', 'APP_NAME', '"GetParking"')
+            buildConfigField('String', 'PROJECT_NAME', '"GetParking"')
+            buildConfigField('String', 'COMPANY', '"PLAY TIME MEDIA INDIA PVT. LTD"')
+            buildConfigField('String', 'DEVICESFBID', '"1:200145100061:android:efa242d3bac9b207"')
+            buildConfigField('String', 'DEVICESFBAPIKEY', '"AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"')
+            buildConfigField('String', 'DEVICESDBPATH', '"https://getparking-development-counters.firebaseio.com/"')
+            buildConfigField('String', 'DEFAULTFBID', '"1:200145100061:android:efa242d3bac9b207"')
+            buildConfigField('String', 'DEFAULTFBAPIKEY', '"AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"')
+            buildConfigField('String', 'DEFAULTDBPATH', '"https://getparking-development.firebaseio.com/"')
+            buildConfigField('String', 'DEFAULTSTORAGEURL', '"gs://getparking-development.appspot.com"')
+            buildConfigField('String', 'SHORTURLDOMAIN', '"gpdev.page.link"')
+            buildConfigField('String', 'BASEAPIURL', '"https://getparking-development.appspot.com/"')
+        }
+
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+configurations.all {
+    resolutionStrategy.eachDependency {
+        DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == "com.android.support") {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion "26.+"
+                }
+            }
+    }
+}
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.0'
+    implementation 'androidx.navigation:navigation-ui:2.3.0'
+    implementation 'com.google.firebase:firebase-auth:19.3.2'
+    implementation 'com.google.firebase:firebase-firestore:21.6.0'
+    implementation 'com.google.firebase:firebase-storage:19.2.0'
+    implementation 'com.google.firebase:firebase-crashlytics:17.2.1'
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+    implementation 'com.google.firebase:firebase-database:19.4.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'org.tensorflow:tensorflow-lite:2.3.0'
+    implementation 'org.tensorflow:tensorflow-lite-gpu:2.3.0'
+
+    implementation group: 'org.bytedeco', name: 'javacv', version: '1.5.2'
+
+    implementation group: 'org.bytedeco', name: 'ffmpeg', version: '4.2.1-1.5.2'
+    implementation group: 'org.bytedeco', name: 'ffmpeg', version: '4.2.1-1.5.2', classifier: 'android-arm64'
+    implementation group: 'org.bytedeco', name: 'ffmpeg', version: '4.2.1-1.5.2', classifier: 'android-x86_64'
+    implementation group: 'org.bytedeco', name: 'ffmpeg', version: '4.2.1-1.5.2', classifier: 'android-arm'
+
+    implementation group: 'org.bytedeco', name: 'opencv', version: '4.1.2-1.5.2'
+    implementation group: 'org.bytedeco', name: 'opencv', version: '4.1.2-1.5.2', classifier: 'android-arm64'
+    implementation group: 'org.bytedeco', name: 'opencv', version: '4.1.2-1.5.2', classifier: 'android-x86_64'
+    implementation group: 'org.bytedeco', name: 'opencv', version: '4.1.2-1.5.2', classifier: 'android-arm'
+
+    implementation group: 'org.bytedeco', name: 'openblas', version: '0.3.7-1.5.2'
+    implementation group: 'org.bytedeco', name: 'openblas', version: '0.3.7-1.5.2', classifier: 'android-arm64'
+    implementation group: 'org.bytedeco', name: 'openblas', version: '0.3.7-1.5.2', classifier: 'android-x86_64'
+    implementation group: 'org.bytedeco', name: 'openblas', version: '0.3.7-1.5.2', classifier: 'android-arm'
+
+    api 'com.getkeepsafe.relinker:relinker:1.3.1'
+}

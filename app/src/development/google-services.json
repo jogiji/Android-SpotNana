@@ -1,0 +1,556 @@
+{
+  "project_info": {
+    "project_number": "200145100061",
+    "firebase_url": "https://getparking-development.firebaseio.com",
+    "project_id": "getparking-development",
+    "storage_bucket": "getparking-development.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:4be727b8bf9e4198",
+        "android_client_info": {
+          "package_name": "automaticpmswbsocket.getparking.in.uniquenumberplatedetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-7ucn8m05q9imp11r5u0oum77he7f0c1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "automaticpmswbsocket.getparking.in.uniquenumberplatedetector",
+            "certificate_hash": "177ffb2ecc0c0c5eadffcf7954ffc1348bdf8944"
+          }
+        },
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:72013747e5bba2a2",
+        "android_client_info": {
+          "package_name": "com.google.firebase.ml.md"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-r9jmdp9mo5vkl0brlnrrmol5gipji91c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.ml.md",
+            "certificate_hash": "945aba55cedbadeaa51a6e9f19387b959e94ad36"
+          }
+        },
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:09546560b4505797",
+        "android_client_info": {
+          "package_name": "com.google.firebase.samples.apps.mlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-p7nl73th75qmf2n9i37759r88ud4k4p5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.samples.apps.mlkit",
+            "certificate_hash": "945aba55cedbadeaa51a6e9f19387b959e94ad36"
+          }
+        },
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:070fdecec04471cf6595f4",
+        "android_client_info": {
+          "package_name": "in.getparking.alpr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-sd60tr3p1hu2sasdhta3tnqkmn5vdo7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.alpr",
+            "certificate_hash": "945aba55cedbadeaa51a6e9f19387b959e94ad36"
+          }
+        },
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:a17bacd63d4ad250",
+        "android_client_info": {
+          "package_name": "in.getparking.anprcamera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-lunvodoipgeokrrq1ost5o5o1acdui86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.anprcamera",
+            "certificate_hash": "945aba55cedbadeaa51a6e9f19387b959e94ad36"
+          }
+        },
+        {
+          "client_id": "200145100061-mtbim38hvg7d249i1h7noa82891uc0o6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.anprcamera",
+            "certificate_hash": "e3e6b5844aacd084d6223ab0ff517b614657cd52"
+          }
+        },
+        {
+          "client_id": "200145100061-an21d0cfqvnljigthjntrt4k25sffmrm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.anprcamera",
+            "certificate_hash": "177ffb2ecc0c0c5eadffcf7954ffc1348bdf8944"
+          }
+        },
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:85885dde8d3c4471",
+        "android_client_info": {
+          "package_name": "in.getparking.automaticpms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-1glkhm42h9a185rg4fvofoc3o88lvpan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.automaticpms",
+            "certificate_hash": "177ffb2ecc0c0c5eadffcf7954ffc1348bdf8944"
+          }
+        },
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:91a9516fffb0ddc7",
+        "android_client_info": {
+          "package_name": "in.getparking.citizenapp.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-rcirn6dasdpkhjvk6reb9q6qmcpe5tc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.citizenapp.dev",
+            "certificate_hash": "945aba55cedbadeaa51a6e9f19387b959e94ad36"
+          }
+        },
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:e9e689c894a75a3f6595f4",
+        "android_client_info": {
+          "package_name": "in.getparking.custommodel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-m6f0bfs11r4fqtnvrldt133036j7jk6m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.custommodel",
+            "certificate_hash": "945aba55cedbadeaa51a6e9f19387b959e94ad36"
+          }
+        },
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:48f285b5b27c1fc7",
+        "android_client_info": {
+          "package_name": "in.getparking.operations.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-av9u3cko8skjpdudlbmgh8ceb2gks7q2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.operations.dev",
+            "certificate_hash": "b6e5d5b9421828da0bff2268b255a0f54e9eb358"
+          }
+        },
+        {
+          "client_id": "200145100061-edi6o0e1g2lkqjo686a8olgcnf5n8h1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.operations.dev",
+            "certificate_hash": "177ffb2ecc0c0c5eadffcf7954ffc1348bdf8944"
+          }
+        },
+        {
+          "client_id": "200145100061-monatia7rp9i5vp5de1bvdfb74nie356.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.operations.dev",
+            "certificate_hash": "945aba55cedbadeaa51a6e9f19387b959e94ad36"
+          }
+        },
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:a4a70848c941b631",
+        "android_client_info": {
+          "package_name": "in.getparking.pmsdev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-19fj9r3o5pen027i4gdqsuc26as0u7q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.pmsdev",
+            "certificate_hash": "e3e6b5844aacd084d6223ab0ff517b614657cd52"
+          }
+        },
+        {
+          "client_id": "200145100061-907vp858jp5r4nvi716tqhjr4bu1t2e7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.pmsdev",
+            "certificate_hash": "6e374fff9ffb12cdced12be7c18a574c35c92365"
+          }
+        },
+        {
+          "client_id": "200145100061-prolk7tpn3ntkpg54p0erbk73r3mpd8t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.pmsdev",
+            "certificate_hash": "996a7d924e821cf2763c67e6d8583b3ddebe33f6"
+          }
+        },
+        {
+          "client_id": "200145100061-ar5jhtbd8t2nc29kv5gk4jgbgl8pefrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.pmsdev",
+            "certificate_hash": "8ccd067753056efcfb0d3e8305bf18ffca3c13c6"
+          }
+        },
+        {
+          "client_id": "200145100061-l5k72suc24051apje10rur4bpibhvtc6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.pmsdev",
+            "certificate_hash": "945aba55cedbadeaa51a6e9f19387b959e94ad36"
+          }
+        },
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:4ffcb2e7fb4915876595f4",
+        "android_client_info": {
+          "package_name": "in.getparking.spotnanadev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:efa242d3bac9b207",
+        "android_client_info": {
+          "package_name": "in.getparking.ticketingterminal.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-vqm96vfck5hgo2rrntmbtuhljivhciv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.ticketingterminal.dev",
+            "certificate_hash": "e3e6b5844aacd084d6223ab0ff517b614657cd52"
+          }
+        },
+        {
+          "client_id": "200145100061-99nq1ovj7afgfgrofp2usqfegu4m1ia6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.getparking.ticketingterminal.dev",
+            "certificate_hash": "945aba55cedbadeaa51a6e9f19387b959e94ad36"
+          }
+        },
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200145100061:android:6caaf20a4f83d504",
+        "android_client_info": {
+          "package_name": "in.gp.led.configuration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200145100061-stf8fmh46r6frakg9afk8o9348t2d4kq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.gp.led.configuration",
+            "certificate_hash": "1ee9636b860f49ea1c3ab26c1db4760747aa0b43"
+          }
+        },
+        {
+          "client_id": "200145100061-br8u2ma0f1epgtn5hpm1ton8f42i7m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhZLKsexk88q2TPyeXv3Zhwaxymr-2XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200145100061-ulk9bmtljr0i1knv57r0bfsrec6cph7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
